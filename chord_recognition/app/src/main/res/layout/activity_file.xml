@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_file"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    >
+
+    <EditText
+        android:id="@+id/editTextSrcFileName"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonProcess"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginBottom="0dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="/sdcard/Download/Autumn_Leaves_Em_chord.wav"
+        android:textColor="@android:color/darker_gray"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <Button
+        android:id="@+id/buttonProcess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onProcessClick"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="420dp"
+        android:layout_marginTop="5dp"
+        android:text="process"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <TextView
+        android:id="@+id/idk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="128dp"
+        android:text="No Chord"
+        android:scrollbars="vertical"/>
+
+</RelativeLayout>

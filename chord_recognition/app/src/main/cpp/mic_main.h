@@ -1,0 +1,14 @@
+//
+// Created by Wentao Jiang on 2019/4/9.
+//
+
+#ifndef CHORD_RECOGNITION_MIC_MAIN_H
+#define CHORD_RECOGNITION_MIC_MAIN_H
+
+#include "audio_common.h"
+#include "debug_utils.h"
+#include "buf_manager.h"
+
+void ece420ProcessFrame(sample_buf *dataBuf);
+
+#endif //CHORD_RECOGNITION_MIC_MAIN_H
